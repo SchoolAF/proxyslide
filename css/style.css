@@ -1,0 +1,104 @@
+@import url('https://rsms.me/inter/inter.css');
+
+html { 
+	font-family: 'Inter', sans-serif; 
+    scrollbar-width: none; /* For Firefox */
+    -ms-overflow-style: none; /* For Internet Explorer and Edge */
+}
+
+html::-webkit-scrollbar {
+    width: 0px; /* For Chrome, Safari, and Opera */
+}
+
+body {
+    background-color: black;
+    color: white;
+    min-height: 97vh;
+    height: 100%;
+    width: 100%;
+}
+
+h1 {
+    display: flex;
+    justify-content: center;
+    color: white;
+}
+
+
+.container {
+    padding-left: 6.25%;
+    padding-right: 6.25%;
+}
+
+.content {
+	position: absolute;
+	font-size: 15px;
+	left: 50%;
+	top: 50%;
+	-webkit-transform: translate(-50%, -50%);
+	transform: translate(-50%, -50%);
+}
+
+.topnav {
+    overflow: hidden;
+}
+
+.topnav a {
+    color: white;
+    text-decoration: none;
+}
+
+.topnav-link {
+    color: white;
+    text-decoration: none;
+}
+
+.topnav-right {
+  float: right;
+}
+
+.topnav a:hover {
+    color: #32a852;
+}
+
+.body-link {
+    color: #32a852;
+    text-decoration: none;
+}
+
+.body-link:hover {
+    color: white;
+}
+
+.btn_main {
+    background-color: transparent;
+    border: 2px solid #FFFFFF;
+    border-radius: 12px;
+    color: #FFFFFF;
+    padding: 10px 10px;
+    text-align: center;
+    text-decoration: none;
+}
+
+.btn_main:hover {
+    border: 2px solid #32a852;
+    color: #32a852;
+}
+
+.footer {
+  text-align: center;
+  left: 0;
+  bottom: 25px;
+  width: 100%;
+  position: fixed;
+}
+
+.social-links a {
+  color: white;
+  padding: 5px;
+  font-size: 20px;
+  width: 15px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+}
